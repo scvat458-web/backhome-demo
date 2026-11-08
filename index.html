@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>BackHome Coffee</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;800&family=Manrope:wght@400;700&display=swap">
+<style>
+:root{--bg:#fbf5ea;--bg2:#f2e6d2;--card:#fffaf1;--ink:#2b1d14;--mute:#6f5d4e;--line:#e3d3b9;--acc:#b5532b;--on:#fff;--hd:'Fraunces',Georgia,serif;--bd:'Manrope',system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1510;--bg2:#251b14;--card:#2d2118;--ink:#f6ebdb;--mute:#bfa98f;--line:#42332a;--acc:#e0804f;--on:#1d1510}}
+:root[data-theme="dark"]{--bg:#1d1510;--bg2:#251b14;--card:#2d2118;--ink:#f6ebdb;--mute:#bfa98f;--line:#42332a;--acc:#e0804f;--on:#1d1510}
+*,*::before,*::after{box-sizing:inherit}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--bd)}
+.w{max-width:960px;margin:0 auto;padding:0 18px}
+header{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.logo{font:700 22px var(--hd);letter-spacing:.04em}
+.btn{display:inline-block;background:var(--acc);color:var(--on);font:700 16px var(--bd);padding:13px 22px;border-radius:18px;text-decoration:none}
+.btn.o{background:transparent;color:var(--ink);border:2px solid var(--acc)}
+.btn:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.hero{padding:44px 0 56px}
+h1{font:800 clamp(34px,9vw,64px)/1.05 var(--hd);margin:0 0 16px;letter-spacing:-.01em}
+h1 em{font-style:normal;color:var(--acc)}
+.hero p{max-width:520px;color:var(--mute);font-size:19px;margin:0 0 24px}
+h2{font:700 30px var(--hd);margin:0 0 20px}
+section{padding:40px 0}
+.alt{background:var(--bg2)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+.card b{display:block;font:700 19px var(--hd)}.card span{color:var(--mute);font-size:15px}
+.pr{display:block;margin-top:10px;font:800 22px var(--hd);color:var(--acc)}
+.pts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.pts h3{margin:0 0 4px;font:700 18px var(--hd)}.pts p{margin:0;color:var(--mute);font-size:16px}
+.ct{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+footer{padding:26px 0 36px;font-size:13px;color:var(--mute);border-top:1px solid var(--line)}
+</style></head><body>
+<div class="w"><header><div class="logo">BackHome</div><a class="btn" href="tel:+79117000171">Позвонить</a></header>
+<div class="hero"><h1>Кофе и десерты, <em>как дома</em></h1><p>Уютная кофейня на Большой Посадской: матча, кофе и десерты, чтобы остановиться на минуту.</p><a class="btn" href="tel:+79117000171">Позвонить</a></div></div>
+<section class="alt"><div class="w"><h2>Любимое у гостей</h2><div class="grid"><div class="card"><b>Матча-латте</b><span>Любимый напиток гостей</span><span class="pr">от 300 ₽</span></div><div class="card"><b>Флэт уайт</b><span>Двойной эспрессо и мягкое молоко</span><span class="pr">от 270 ₽</span></div><div class="card"><b>Наполеон</b><span>Нежный домашний десерт</span><span class="pr">от 250 ₽</span></div><div class="card"><b>Фильтр-кофе</b><span>Для тех, кто любит классику</span><span class="pr">от 220 ₽</span></div></div></div></section>
+<section><div class="w"><h2>Почему к нам заходят</h2><div class="pts"><div><h3>Тёплая атмосфера</h3><p>Место, куда хочется возвращаться, как домой.</p></div><div><h3>Напитки и десерты</h3><p>Матча, кофе и сладкое к ним на каждый день.</p></div><div><h3>Просто найти</h3><p>Адрес, часы и телефон всегда под рукой.</p></div></div></div></section>
+<section class="alt" id="c"><div class="w"><h2>Контакты</h2><p>Большая Посадская ул., 3, Санкт-Петербург<br>Пн-Пт 8:00-19:00, Сб 9:00-20:00, Вс 10:00-19:00</p>
+<div class="ct"><a class="btn" href="tel:+79117000171">Позвонить</a><a class="btn o" href="https://yandex.ru/maps/?text=BackHome%20Coffee%20Большая%20Посадская%203">Как добраться</a></div></div></section>
+<div class="w"><footer>Демо-версия сайта для BackHome Coffee. Меню и цены примерные, тексты можно изменить.</footer></div>
+</body></html>
